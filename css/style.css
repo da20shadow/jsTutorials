@@ -1,0 +1,86 @@
+.grid-container {
+  width: 94%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: "the-header the-header the-header" "sidebar main-content main-content" "sidebar main-content main-content" "sidebar  item-4 item-5" " footer-area footer-area footer-area";
+  background-color: #ffff;
+  gap: 10px;
+}
+
+.theHeader {
+  grid-area: the-header;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.theHeader h2 {
+  margin-right: 30px;
+}
+.theHeader a {
+  margin: 10px 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.theHeader a:hover {
+  background-color: white;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main-content;
+  height: 90px;
+}
+
+.item4 {
+  grid-area: item-4;
+}
+
+.item5 {
+  grid-area: item-5;
+}
+
+.footer {
+  grid-area: footer-area;
+  height: 90px;
+}
+
+.grid-item {
+  background-color: #1e96ff;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "Courier New", sans-serif;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 10px 20px;
+  background-color: #155dc7;
+  color: whitesmoke;
+  font-size: 19px;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #074096;
+  box-shadow: 0 0 15px 0;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-color: #a1a1a1;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    
+    <title>React Page</title>
+</head>
+<body>
+
+<nav>
+    <a href="index.php">Home PHP</a>
+    <a href="css-grid.php">CSS Grid</a>
+    <a href="home.html">Home HTML</a>
+    <a href="page.html">Page HTML</a>
+</nav>
+
+    <div>
+
+        <p id="demo"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+        <p id="demo4"></p>
+        <p id="demo5"></p>
+        <p id="demo6"></p>
+
+        <button id="myBtn">Try it</button>
+        <button id="myBtn2">Try it 2</button>
+        <button id="myBtn3">Try it 3</button>
+        <button id="myBtn4">Try it 4</button>
+        <button id="myBtn5">Try it 5</button>
+        <button id="myBtn6">Try it 6</button>
+        
+    
+    </div>
+
+    <div id="container"></div>
+    <div class="root"></div>
+    <script type="text/babel">
+        ReactDOM.render( 
+        <h1>Hello, React!</h1>,
+        document.getElementById('container')
+    );
+
+setInterval(show, 1000);
+    </script>
+    <script src="js/functions.js"></script>
+</body>
+</html>
